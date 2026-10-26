@@ -1,42 +1,50 @@
-# Experience Elsewhere (EE)
+# Experience Elsewhere
 
-**Stage:** Public website concept / visual prototype  
-**Venture category:** Curated travel inspiration and experience planning  
-**Parent studio:** Joseph Jilovec Venture Studio
+Thoughtful planning for independent travelers. An early-stage venture from Joseph Jilovec Venture Studio.
 
-## Website design direction
+## Positioning
 
-Immersive travel magazine, full-bleed conceptual landscape, classic editorial serif, sunset colors, destination cards.
+Stay a little longer. Choose a little better. Experience Elsewhere is a travel-planning concept for people who want a personal, practical journey with room to discover what was never on the list.
 
-## First-page architecture
+### Initial audience
 
-Atmospheric hero → brand story → three conceptual travel categories → future destination journal and trip-planning flow.
+- **Curious couples & friends:** Independent travelers planning a roughly week-long trip who prefer a considered route to an exhaustive checklist.
+- **Time-conscious planners:** People with plenty of inspiration but limited time to check travel times, opening patterns and practical fit.
+- **Local destination specialists:** Guides and hospitality professionals interested in contributing grounded local knowledge to a planning pilot.
 
-## Current implementation
+## Proposed first offer
 
-- `index.html` is a self-contained, responsive HTML/CSS landing page.
-- The page has working in-page navigation, descriptive copy, and simple custom CSS/SVG concept artwork.
-- Illustrative dashboard content and other design mockups are **not live services**.
-- No customer-data collection, payments, third-party tracking, or external API keys.
-- Motion is minimal and respects reduced-motion preferences.
-- These visuals are art-direction placeholders; final photography, high-resolution imagery, and polished assets will be developed during the dedicated design phase.
+**The Elsewhere Journey Brief** — A proposed itinerary-planning engagement for a 5–7 day trip in one destination region. Start with interests, pace, access needs and a realistic budget range.
 
-## Run locally
+- **A coherent route:** Choose sensible bases, sequence travel days and leave breathing room. Flag travel times and logistics that need confirmation.
+- **A personal shortlist:** Suggest places and activities around the traveler’s interests, with reasons for inclusion and alternatives for weather or energy.
+- **A practical booking checklist:** Provide source links and a verification list for availability, current prices, access, cancellation terms and transport.
 
-Open `index.html` in a modern browser, or serve the folder using any static HTTP server.
+## Proposed validation milestones
 
-## Deploy to Vercel
+- **Pick one destination niche:** Proposed discovery: interview 10 independent travelers and identify a region where specialist knowledge can be validated.
+- **Review a few real briefs:** Test 5 planning briefs with volunteer travelers and qualified local contributors before offering paid planning.
+- **Check practical fit:** Review pacing, source accuracy and how much of the plan travelers find useful. No bookings, supplier inventory or traveler outcomes are claimed.
 
-Import this public repository into Vercel as a static site (Framework Preset: **Other**). No build command is required; the repository root contains `index.html`. Review the project settings and deployment preview before connecting a custom domain.
+These are planning targets, not achieved results. Availability, scope, partners and commercial terms have not been validated or established.
 
-## Next design iteration
+## Website
 
-Create original premium destination images with accurate location labeling, choose first geographic niche, establish itinerary content standards and booking compliance before accepting bookings.
+- Buildless HTML/CSS/JavaScript; serve this repository root with any static server.
+- Responsive navigation, native FAQ disclosures, and a browser-local inquiry builder.
+- No submissions, analytics, tracking, payments, accounts, API integrations or persistent storage.
+- The inquiry builder creates an editable brief. Copy it or open an email draft; the visitor sends it themselves.
+- Keyboard navigation, form labels, focus outlines, skip link and reduced-motion support.
+- Hero raster asset is AI-generated concept imagery, optimized as WebP. It is not documentary evidence of a site, service or product. See `assets/IMAGE_NOTES.md`.
 
-## Confidential planning
+## Deployment
 
-Keep financial models, internal strategy, pricing experiments, private partners and proprietary implementation details in the private `josephjilovec/priv.venturefiles` repository, **not** in this public repo.
+Preserve the existing Vercel project and domains. Framework: Other; no build command; publish the repository root. Deployments depend on the repository's hosting integration.
 
-## Important
+## Validation
 
-The venture name is a working brand pending trademark/domain clearance. This page is a concept preview, not a claim that services, inventory, software integrations, or regulated offerings are operational.
+Check JavaScript syntax, internal anchors, asset existence and responsive layout. Run a browser preview to exercise mobile navigation, inquiry preparation, edits, copying and FAQ interactions. The website has no live service bookings.
+
+## Public scope
+
+Keep confidential financial models, pricing experiments and partner negotiations in private planning repositories. Working brand and pilot service remain subject to validation before commercial launch.
